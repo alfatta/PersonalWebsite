@@ -1,0 +1,20 @@
+                <div class="row">
+                    <div class="6u 6u$(small)">
+                        <ul class="actions vertical" style="margin:0">
+                            {% if page.next %}
+                             <li><a href="{{ site.url }}{{ page.next.url }}" class="button small fit">< Tulisan Selanjutnya</a></li>
+                            {% else %}
+                             <li><span class="button small fit disabled">< Tulisan Selanjutnya</span></li>
+                            {% endif %}
+                        </ul>
+                   </div>
+                   <div class="6u$ 6u$(small)">
+                        <ul class="actions vertical small" style="margin:0">
+                            {% if page.previous %}
+                            <li><a href="{{ site.url }}{{ page.previous.url }}" class="button small fit">Tulisan Sebelumnya ></a></li>
+                            {% else %}
+                            <li><span class="button small fit disabled">Tulisan Sebelumnya ></span></li>
+                            {% endif %}
+                        </ul>
+                   </div>
+                </div>

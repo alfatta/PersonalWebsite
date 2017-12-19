@@ -1,0 +1,33 @@
+<!-- Search Engine -->
+        <meta name="description" content="{{ page.excerpt |  strip_html | strip_newlines }}">
+        <meta name="image"       content="{{ site.url }}{{ site.thumbnail.og }}">
+        
+        <!-- Schema.org for Google -->
+        <meta itemprop="name"        content="{{ page.title }} - {{ site.title }}">
+        <meta itemprop="description" content="{{ page.excerpt |  strip_html | strip_newlines }}">
+        <meta itemprop="image"       content="{{ site.url }}{{ site.thumbnail.og }}">
+        
+        <!-- Twitter -->
+        <meta name="twitter:card"        content="summary">
+        <meta name="twitter:title"       content="{{ page.title }} - {{ site.title }}">
+        <meta name="twitter:description" content="{{ page.excerpt |  strip_html | strip_newlines }}">
+        <meta name="twitter:site"        content="@{{ site.social.twitter }}">
+        <meta name="twitter:creator"     content="@{{ site.social.twitter }}">
+        <meta name="twitter:image:src"   content="{{ site.url }}/assets/img/meta/{{ page.image }}-tw.jpeg">
+        
+        <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+        <meta name="og:title"       content="{{ page.title }} - {{ site.title }}">
+        <meta name="og:description" content="{{ page.excerpt |  strip_html | strip_newlines }}">
+        <meta name="og:image"       content="{{ site.url }}/assets/img/meta/{{ page.image }}-og.jpeg">
+        <meta name="og:url"         content="{{ site.url }}">
+        <meta name="og:site_name"   content="{{ site.title }}">
+        <meta name="og:locale"      content="id_ID">
+        <meta name="og:type"        content="article">
+        
+        <!-- Open Graph - Article -->
+        <meta name="article:section"         content="Technology">
+        <meta name="article:published_time"  content="{{ page.date | date: "%Y-%m-%dT%H:%M:%S+07:00" }}">
+        <meta name="article:author"          content="{{ site.author.name }}">
+        <meta name="article:tag"             content="{{ page.tag }}">
+        <meta name="article:expiration_time" content="{{ page.date | date: "%Y" | plus: 1 }}{{ page.date | date: "-%m-%dT%H:%M:%S+07:00" }}">
+        <meta name="article:modified_time"   content="{{ page.modified | date: "%Y-%m-%dT%H:%M:%S+07:00" }}">

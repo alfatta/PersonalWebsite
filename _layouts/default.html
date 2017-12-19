@@ -1,0 +1,30 @@
+{%- assign is_post = page.date %}
+{%- assign is_page = page.is_page %}
+{%- include header.html %}
+        <div id="main">
+        {%- if is_post %}
+            <section id="one">
+                <div class="12u$">
+                    <span class="image fit">
+                        <img src="{{ site.url }}/assets/img/meta/{{ page.image }}-tw.jpeg" alt="">
+                    </span>
+                </div>
+                <header class="major">
+                    <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+                    {%- include pageDate.html %}
+                </header>
+                {{ page.content }}
+            </section>
+            <section id="two">
+                {% include pagination.html %}
+            </section>
+            <section id="three">
+                <h3>Komentar</h3>
+            </section>
+        {%- else %}
+            {{ content }}
+        {%- endif %}
+
+        </div>
+
+{%- include footer.html %}

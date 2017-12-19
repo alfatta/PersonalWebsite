@@ -1,0 +1,32 @@
+---
+title       : Blog
+description : Blog berisi coretan seputar teknologi dan catatan belajar saya
+permalink   : "/blog"
+is_page     : TRUE
+---
+<section id="one">
+                {%- assign tahun = 1 %}
+                {%- assign i = 1 %}
+                {%- for post in site.posts %}
+                {%- assign tahun2 = post.date | date: "%Y" %}
+                {%- if tahun != tahun2 %}
+                {%- if tahun != 1 %}
+                </div>
+                {% endif %}
+                {%- assign tahun = tahun2 %}
+                <h2>{{ tahun2 }}</h2>
+                <div class="row">
+                {%- endif %}
+                {%- if i == 1 %}
+                {%- assign i = 2 %}
+                    <article class="6u 12u$(xsmall) work-item">
+                {%- else %}
+                {%- assign i = 1 %}
+                    <article class="6u$ 12u$(xsmall) work-item">
+                {%- endif %}
+                        <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+                        <p>{{ post.excerpt | strip_html | strip_newlines }}</p>
+                    </article>
+                {%- endfor %}
+                </div>
+            </section>
