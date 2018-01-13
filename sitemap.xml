@@ -4,39 +4,49 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
   <loc>http://alfattarezqa.com/</loc>
-  <lastmod>2017-12-21T14:31:54+00:00</lastmod>
+  <lastmod>2018-01-13T12:24:47+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://alfattarezqa.com/blog.html</loc>
-  <lastmod>2017-12-21T14:31:54+00:00</lastmod>
+  <lastmod>2018-01-13T12:24:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://alfattarezqa.com/cv.html</loc>
-  <lastmod>2017-12-21T14:31:54+00:00</lastmod>
+  <lastmod>2018-01-13T12:24:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://alfattarezqa.com/kontak.html</loc>
-  <lastmod>2017-12-21T14:31:54+00:00</lastmod>
+  <lastmod>2018-01-13T12:24:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>http://alfattarezqa.com/blog/2018-01-Buku-Jendela-Pemikiran.html</loc>
+  <lastmod>2018-01-13T12:24:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://alfattarezqa.com/blog/2017-12-Belajar-Ngetik-10-Jari.html</loc>
-  <lastmod>2017-12-21T14:31:54+00:00</lastmod>
+  <lastmod>2018-01-13T12:24:48+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://alfattarezqa.com/blog/2017-09-Sortir-Array-Berdasarkan-Child-Array-PHP.html</loc>
-  <lastmod>2017-12-21T14:31:54+00:00</lastmod>
+  <lastmod>2018-01-13T12:24:48+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://alfattarezqa.com/blog/2017-09-Hello-World.html</loc>
-  <lastmod>2017-12-21T14:31:54+00:00</lastmod>
+  <lastmod>2018-01-13T12:24:48+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+
+
 </urlset>
