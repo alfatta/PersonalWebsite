@@ -9,9 +9,9 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
         <title>{% if is_post or is_page %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-       
+
         {% if is_post %}{% include metaArticle.html %}{% elsif is_page %}{% include metaPage.html %}{% else %}{% include metaWebsite.html %}{% endif %}
         {% include icon.html %}
         <meta name="google-site-verification" content="eCGHjemxchOOsVa1WU8biWQyCvgcXjRQCw-52WqPBiY" />
@@ -26,7 +26,7 @@
     <body id="top">
         <header id="header">
             <div class="inner">
-                <a href="{{ site.url }}" class="image avatar"><img src="{{ site.url }}/assets/img/avatar.jpg" alt="" /></a>
+                <a href="{{ site.url }}" class="image avatar"><img src="{{ site.url }}/assets/img/avatar.jpeg" alt="Alfatta Rezqa" /></a>
                 <h1>Hai, saya <strong>{{ site.author.name }}</strong>, {{ site.description }}</h1>
             </div>
         </header>

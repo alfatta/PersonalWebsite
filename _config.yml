@@ -2,8 +2,10 @@ title                   : "Alfatta Rezqa"
 description             : "Programmer muda yang terbiasa dengan bahasa pemrograman PHP dan Python. Pengguna linux Manjaro."
 url                     : "http://alfattarezqa.com"
 
+permalink : "/blog/:year-:month-:title.html"
+
 author:
-  image                 : "/assets/img/author.jpg"
+  image                 : "/assets/img/avatar.jpeg"
   name                  : "Alfatta Rezqa"
 
 icon:
@@ -27,3 +29,6 @@ defaults:
   - values:
       layout            : "default"
       excerpt_separator : "<!--more-->"
+
+plugins:
+  - jekyll-sitemap

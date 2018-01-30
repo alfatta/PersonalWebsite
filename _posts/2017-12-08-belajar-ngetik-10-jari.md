@@ -3,8 +3,7 @@ title     : Belajar Ngetik 10 Jari
 date      : 2017-12-08 10:26:45 +0700
 modified  : 2017-12-08 10:26:45 +0700
 tag       : Blog, Catatan 
-image     : "0003"
-permalink : "/blog/:year-:month-:title.html"
+image     : "belajar-ngetik-10-jari"
 ---
 
 Jaman sekarang ga ngetik pakai 10 jari? Gak apa-apa juga sih.. Hehe. Tapi akhir-akhir ini lagi iseng coba text editor baru<!--more--> yang namanya vim. Nah, di vim itu semuanya tergantung 100% ke keyboard karena berbasis konsol. Di vim semua navigasi, perintah, dll langsung di jalankan dengan keyboard. Hal ini yang bikin saya kepengen bisa ngetik pakai 10 jari. Karena sebelumnya cuma bisa ngetik paling 5/6 jari aja. Sisanya? Hehe sisanya mager digerakin jarinya.

@@ -3,8 +3,7 @@ title     : Tutorial Unit Testing PHP - Part 1 Set Up
 date      : 2018-01-25 07:57:21
 modified  : 2018-01-25 08:05:14
 tag       : PHP, Testing, Unit Testing
-image     : "0005"
-permalink : "/blog/:year-:month-:title.html"
+image     : "tutorial-unit-testing-part-1-set-up"
 ---
 
 Unit testing merupakan salah satu metode pengujian perangkat lunak. Pada metode ini, setiap unit dari source code diuji. <!--more-->Pengujian ini bertujuan untuk menentukan apakah setiap unit tersebut layak untuk digunakan. Dalam bahasa pemrograman PHP terdapat beberapa framework yang dapat mempermudah dalam proses unit testing. Seperti pada laman [Quora](https://www.quora.com/What-are-the-best-PHP-testing-frameworks) berikut, terdapat 5 framework yakni, PHPUnit, Codeception, Behat, PHPSpec, dan SimpleTest.

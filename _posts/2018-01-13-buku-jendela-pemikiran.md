@@ -2,9 +2,8 @@
 title     : Buku Jendela Pemikiran
 date      : 2018-01-13 17:24:32 +0700
 modified  : 2018-01-13 17:24:32 +0700
-tag       : Blog, Catatan 
-image     : "0004"
-permalink : "/blog/:year-:month-:title.html"
+tag       : Blog, Catatan
+image     : "buku-jendela-pemikiran"
 ---
 
 Ditahun yang baru ini akhirnya saya mulai tertarik membaca buku. Tahun-tahun sebelumnya saya memiliki<!--more--> ego yang mengatakan saya kan anak IT kenapa harus baca buku non IT. Padahal saat ketemu dengan buku beraliran IT malah makin ga mau baca buku. Lebih seneng baca masalah IT dari kesalahan atau error program dan saya cari di forum internet.

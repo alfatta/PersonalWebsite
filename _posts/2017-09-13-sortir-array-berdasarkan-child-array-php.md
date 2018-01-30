@@ -3,8 +3,7 @@ title     : Sortir Array Berdasarkan Child Array PHP
 date      : 2017-09-13 15:06:34
 modified  : 2017-11-30 21:26:14
 tag       : PHP, Fungsi, Sortir
-image     : "0002"
-permalink : "/blog/:year-:month-:title.html"
+image     : sortir-array-berdasarkan-child-array-php
 ---
 
 Dalam salah satu kesempatan saya bertemu permasalahan saat akan mengurutkan data yang sudah berupa array. Namun <!--more-->yang jadi masalah ialah saya ingin mengurutkannya berdasarkan item yang ada didalam setiap item dalam array utama.
