@@ -12,6 +12,6 @@ Untuk lebih jelasnya bisa dibaca di [laman ini](https://meta.stackoverflow.com/q
 
 Lalu apa yang mau saya share pada kesempatan ini ialah hasil dari beberapa orang yang merangkum dokumentasi tersebut ke dalam file-file pdf sesuai bahasan pokok dari dokumentasi tersebut. Terdapat berbagai macam bahasan seperti Angular, PHP, JavaScript, dan lain-lain.
 
-File-file PDF tersebut bisa diunduh di laman [GoalKicker.com](http://goalkicker.com). Saya sendiri sudah mengunduhnya. Jika ternyata situs GoalKicker telah ditutup anda bisa menghubungi saya untuk saya kirimkan file tersebut.
+File-file PDF tersebut bisa diunduh di laman [GoalKicker.com](https://goalkicker.com). Saya sendiri sudah mengunduhnya. Jika ternyata situs GoalKicker telah ditutup anda bisa menghubungi saya untuk saya kirimkan file tersebut.
 
 Semoga bermanfaat.
